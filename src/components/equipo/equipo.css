@@ -1,0 +1,27 @@
+.equipo{
+    width: 100%;
+    
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+}
+.equipo h2{
+    font-weight: 700;
+
+    border-bottom: 4px solid #57c278;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+.colegas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 32px;
+}
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
